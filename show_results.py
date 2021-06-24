@@ -9,7 +9,7 @@ file_path = "exp/mono0a/decode_test_yesno/scoring_kaldi/penalty_" + penalty + "/
 with open(file_path, "r") as f:
     results = f.read().splitlines()
 
-print("\n*** WER: %" + wer + "***\n")
+print("\n*** WER: %" + wer + " ***\n")
 
 print("Results:")
 for result in results:
