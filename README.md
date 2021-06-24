@@ -8,7 +8,7 @@ docker pull kaldiasr/kaldi
 ```
 
 ### 1. Download training resources needed for the example
-Please download the training resources in your project directory [link](https://drive.google.com/file/d/1w6Lb6rGe5a3sTIzL4zszwqMMRKtQK9jm/view?usp=sharing).
+Please download the training resources in your project directory with this [link](https://drive.google.com/file/d/1w6Lb6rGe5a3sTIzL4zszwqMMRKtQK9jm/view?usp=sharing).
 
 ### 2. Run the docker image
 Now, we need to run the docker image and connect to the container:
@@ -59,3 +59,7 @@ Lastly, you can display the results of your model for the test set:
 ```bash
 python3 show_results.py
 ```
+
+### 4. Further reading
+- Official Kaldi website: https://kaldi-asr.org
+- A good reading for Kaldi: https://www.eleanorchodroff.com/tutorial/kaldi/training-overview.html
