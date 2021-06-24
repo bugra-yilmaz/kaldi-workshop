@@ -1,22 +1,22 @@
 # kaldi-workshop
 A brief introduction to Kaldi with a simple speech recognition use case.
 
-## Pull the Kaldi docker image
+### 0. Pull the Kaldi docker image
 First, we need the Kaldi docker image for running our example:
 ```bash
 docker pull kaldiasr/kaldi
 ```
 
-## Download training resources needed for the example
+### 1. Download training resources needed for the example
 Please download the training resources in your project directory [link](https://drive.google.com/file/d/1w6Lb6rGe5a3sTIzL4zszwqMMRKtQK9jm/view?usp=sharing).
 
-## Run the docker image
+### 2. Run the docker image
 Now, we need to run the docker image and connect to the container:
 ```bash
 docker run --name kaldi -it kaldiasr/kaldi:latest
 ```
 
-## Copy the source code and resources
+### 3. Copy the source code and resources
 Now that we are in the Kaldi container, first create a directory for our example in ```egs```:
 ```bash
 cd egs
@@ -29,7 +29,7 @@ Then, we need to copy our source code and resources in our example directory. Fo
 docker cp . kaldi:/opt/kaldi/egs/xomnia/yes-no
 ```
 
-## Execute
+### 4. Execute
 First, unzip the training resources:
 ```bash
 unzip -q resources.zip
