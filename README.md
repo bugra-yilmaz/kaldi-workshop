@@ -8,7 +8,7 @@ docker pull kaldiasr/kaldi
 ```
 
 ### 1. Download training resources needed for the example
-Please download the training resources in your project directory with this [link](https://drive.google.com/file/d/1w6Lb6rGe5a3sTIzL4zszwqMMRKtQK9jm/view?usp=sharing).
+Please download the training resources in your project directory with this [link](https://drive.google.com/u/0/uc?id=1w6Lb6rGe5a3sTIzL4zszwqMMRKtQK9jm&export=download).
 
 ### 2. Run the docker image
 Now, we need to run the docker image and connect to the container:
